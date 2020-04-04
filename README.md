@@ -1,11 +1,17 @@
 # Composite mixture of log-linear models for categorical data
 
-Multivariate categorical data are routinely collected in many application areas. As the number of cells in the table grows exponentially with the number of variables, many or even most cells will contain zero observations. This severe sparsity motivates appropriate statistical methodologies that effectively reduce the number of free parameters, with penalized log-linear models and latent structure analysis being popular options. This article proposes a fundamentally new class of methods, which we refer to as Mixture of Log Linear models (mills). Combining latent class analysis and log-linear models, mills defines a novel Bayesian methodology to model complex multivariate categorical with flexibility and interpretability. mills is shown to have key advantages over alternative methods for contingency tables in simulations and an application investigating the relation among suicide attempts and empathy.
+This repository is associated with the paper [Aliverti, E. and Dunson, D. (2020) Composite mixture of log-linear models for categorical data.](arxiv.org/)
 
-This repo is associarted with the paper [Aliverti, E. and Dunson, D. Composite mixture of log-linear models for categorical data](arxiv.org/)
+#### Abstract
+Multivariate categorical data are routinely collected in many application areas. As the number of cells in the table grows exponentially with the number of variables, many or even most cells will contain zero observations. This severe sparsity motivates appropriate statistical methodologies that effectively reduce the number of free parameters, with penalized log-linear models and latent structure analysis being popular options. This article proposes a fundamentally new class of methods, which we refer to as Mixture of Log Linear models (mills). Combining latent class analysis and log-linear models, mills defines a novel Bayesian methodology to model complex multivariate categorical with flexibility and interpretability.
 
-## Main content
-`mills/` R package implementing the methods
-`sim/` R code to reproduce the simulation studies. Require `rstan` to impement the competior approaches.
+
+
+## Main contents
+`mills/` R package implementing the methods, also includes different utilities for re-parametrising probability tensor into log-linear coefficients with corner parametrisation. Requires `RcppArmadillo` and `BayesLogit`.
+
+`SIMULATIONS/` R code to reproduce the simulation studies included in Section 3 of the paper (specifically, Figure 2).
+Simulations for the proposed approach require the included `mills` package. 
+Simulations for the competitors require the [`rstan`](https://github.com/stan-dev/rstan/).
 
 

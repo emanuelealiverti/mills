@@ -1,11 +1,11 @@
 Package: mills
 Type: Package
-Title: Composite Mixture of logL 
+Title: Composite Mixture of log-linear models
 Version: 1.0
 Date: 2019-04-19
 Author: Emanuele Aliverti 
 Maintainer: Emanuele Aliverti <aliverti@stat.unipd.it>
-Description: composite mixture of log-linear models 
-License: What license is it under?
+Description: Posterior inference under mills
+License: GPL-2
 Imports: Rcpp (>= 1.0.0), BayesLogit
 LinkingTo: Rcpp, RcppArmadillo

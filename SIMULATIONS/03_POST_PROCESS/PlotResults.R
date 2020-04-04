@@ -805,6 +805,7 @@ pl_tot
 	
 
 #ggsave(pl_tot, file = "simulation_complete.pdf",width = 20,height = 13)
+ggsave(pl_tot, file = "simulation_complete.png",width = 20,height = 13)
 
 
 
