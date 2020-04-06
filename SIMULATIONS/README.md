@@ -1,5 +1,5 @@
 # Simulation studies
-This file illustrates how to reproduce results from [Aliverti, E. and Dunson, D. (2020) Composite mixture of log-linear models for categorical data](arxiv.org/), Section 3.
+This file illustrates how to reproduce results from [Aliverti, E. and Dunson, D. (2020) Composite mixture of log-linear models for categorical data](https://arxiv.org/abs/2004.01462), Section 3.
 
 ## Set-up
 We recommend to install the package locally, for example in a `./lib` folder.
